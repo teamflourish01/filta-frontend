@@ -1,10 +1,12 @@
 import logo from './logo.svg';
-import './App.css';
+import appstyle from './app.module.css';
 import Mycard from './pages/mycard/Mycard';
+import Sidebar from './component/sidebar/Sidebar';
 
 function App() {
   return (
-    <div className="App">
+    <div className={appstyle.appflex}>
+    <Sidebar/>
     <Mycard/>
     </div>
   );
