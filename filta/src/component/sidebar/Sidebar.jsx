@@ -22,12 +22,15 @@ const Sidebar = () => {
               <img src={flita} alt="" srcset="" />
             </h2>
           </div>
+
+
           <div className={style.sidebarmenu}>
             <ul className={style.sidebarul}>
               <div className={style.profile}>
                 <img src={mycard} alt="" srcset="" className={style.icon} />
                 <li className={style.card}>
                   <Link to="/mycard">My Cards</Link>
+
                 </li>
               </div>
               <div className={style.profile}>

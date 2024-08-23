@@ -1,0 +1,82 @@
+.forgot-container {
+    /* max-width: 1920px; */
+    /* min-width: 200px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 50px 0; */
+    height: 100vh;
+
+  }
+  .forgot-form-container {
+    width: 422px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #0000001a;
+  }
+  
+  .input-field-forgot {
+    margin: 0 0 15px 0;
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #718096;
+  }
+  
+  .input-group-forgot {
+    position: relative;
+    border: 1px solid #cbd5e0;
+    border-radius: 20px;
+    padding: 0 5px;
+    background-color: rgba(231, 235, 238, 0.5);
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .input-forgot {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(231, 235, 238, -0.5);
+    padding: 0 5px;
+    font-size: 18px;
+  }
+  .logo-container-forgot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 30px;
+  }
+  
+  .forgot-title {
+    font-family: Poppins-Medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .forgot-tabs {
+    /* padding: 30.13px 0 0; */
+  }
+  .forgot-up-top-text {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: #718096;
+    padding: 15px 0 30px;
+  }
+  .back-arrow-forgot {
+    padding: unset;
+    color: black;
+    position: relative;
+    top: 30.5px;
+}
