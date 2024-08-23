@@ -1,7 +1,13 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Createcard from './pages/mycard/Createcard';
+
+
 import logo from './logo.svg';
 import appstyle from './app.module.css';
 import Mycard from './pages/mycard/Mycard';
 import Sidebar from './component/sidebar/Sidebar';
+
 import Login from './pages/login/Login';
 import { Route , Routes } from 'react-router-dom';
 import AllRoutes from './AllRoutes';
@@ -25,6 +31,7 @@ function App() {
     </Routes>
     {/* </div> */}
     </>
+
   );
 }
 
