@@ -26,7 +26,7 @@ const Sidebar = () => {
               <div className="profile">
                 <img src={mycard} alt="" srcset="" className="icon" />
                 <li className="card">
-                  <a href="/Dashbord">My Cards</a>
+                  <Link to="admin/mycard">My Cards</Link>
                 </li>
               </div>
               <div className="profile">
